@@ -1,0 +1,50 @@
+@import url(../elements/__element/elements__element.css);
+@import url(../elements/__image/elements__image.css);
+@import url(../elements/__panel/elements__panel.css);
+@import url(../elements/__title/elements__title.css);
+@import url(../elements/__like-button/elements__like-button.css);
+
+.elements{
+    width: 68.91%;
+    margin: auto;
+    margin-top: 51px;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(min-content, max-content));
+    gap: 20px 17px;
+}
+@media (max-width: 1124px) {
+
+    .elements {
+      width: calc(100% - 96px);
+      grid-template-columns: repeat(auto-fill, minmax(252px, 1fr));
+    }
+  
+  }
+  
+  @media (max-width: 768px) {
+  
+    .elements {
+      width: calc(100% - 72px);
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    }
+  
+  }
+  
+  @media (max-width: 540px) {
+  
+    .elements {
+      width: calc(100% - 48px);
+      grid-template-columns: repeat(auto-fill, minmax(282px, 1fr));
+    }
+  
+  }
+  
+  @media (max-width: 480px) {
+  
+    .elements {
+      width: calc(100% - 38px);
+      grid-template-columns: repeat(auto-fill, minmax(282px, 1fr));
+      margin: 0 auto 48px;
+    }
+  
+  }

@@ -1,0 +1,41 @@
+@import url(../header/__logo/header__logo.css);
+
+.header{
+    width: 68.91%;
+    margin: 45px auto 40px;
+    padding: 0;
+    min-height: 74px;
+}
+@media (max-width: 1124px) {
+
+    .header {
+      width: calc(100% - 96px);
+    }
+  
+  }
+  
+  @media (max-width: 768px) {
+  
+    .header   {
+      width: calc(100% - 72px);
+    }
+  
+  }
+  
+  @media (max-width: 540px) {
+  
+    .header   {
+      width: calc(100% - 48px);
+    }
+  
+  }
+  
+  @media (max-width: 480px) {
+  
+    .header  {
+      width: calc(100% - 4px);
+      margin: 0 auto 42px;
+      padding-top: 28px;
+    }
+  
+  }
